@@ -1,0 +1,54 @@
+﻿[
+  {
+    "id": 1,
+	"leveLlimit":1,
+	"taskType":"MainTask",
+    "npc": "新手村村长",
+	"npcHead":"Boss_6",
+    "title": "初入新手村",
+    "content": "欢迎来到新手村,请前往村长处报道领取新手准备",
+    "award": {"itemID":"1,10","exp":2000,"coin":999}
+  },
+  {
+    "id": 2,
+	"levelLimit":3,
+	"taskType":"MainTask",
+    "npc": "村民甲",
+	"npcHead":"Boss_39",
+    "title": "击杀野猪",
+    "content": "村外附件总有野猪出没，村民一直很害怕，请勇士前往并击杀8只野猪，我会给你报酬的",
+    "award": {"itemID":"2","exp":3000,"coin":1500}
+  },
+  {
+    "id": 100,
+	"levelLimit":5,
+	"taskType":"SideTask",
+    "npc": "村民乙",
+	"npcHead":"Boss_39",
+    "title": "击杀强盗",
+    "content": "最近村外来了一伙土匪，一直骚扰村名，请勇士赶走他们",
+    "award": {"itemID":"8","exp":3000,"coin":1500}
+  },
+  {
+    "id": 1000,
+	"levelLimit":0,
+	"taskType":"DailyTask",
+    "npc": "村民丙",
+	"npcHead":"Boss_39",
+    "title": "采摘药草",
+    "content": "要是能在一线峡采摘些药草给我能得到报酬哦",
+    "award": {"itemID":"0","exp":1500,"coin":3000}
+  },
+   {
+    "id": 10000,
+	"levelLimit":0,
+	"taskType":"RewardTask",
+    "npc": "村民丙",
+	"npcHead":"Boss_39",
+    "title": "毒蝎王",
+    "content": "毒蝎王害死了我的家人，我高额悬赏击杀",
+    "award": {"itemID":"0","exp":0,"coin":5000}
+  }
+ 
+    
+]
